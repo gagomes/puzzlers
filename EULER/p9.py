@@ -15,8 +15,9 @@ def main():
     for a in range(0, 1000):
         for b in range(0, 1000):
             for c in range(0, 1000):
-                if is_ptriangle(a,b,c) and (a + b + c) == 1000:
-                    return print(a * b * c)
+                if is_ptriangle(a, b, c) and (a + b + c) == 1000:
+                    print(a * b * c)
+                    return
 
 
 if __name__ == '__main__':
